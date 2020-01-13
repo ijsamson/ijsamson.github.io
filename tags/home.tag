@@ -1,0 +1,13 @@
+<home>
+    <div>
+        <navbar></navbar>
+        <site-header></site-header>
+        <about></about>
+        <experience></experience>
+        <awards></awards>
+    </div>
+    <script>
+    </script>
+    <style>
+    </style>
+</home>

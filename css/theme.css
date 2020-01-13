@@ -1,0 +1,39 @@
+* {
+    font-family: 'Lora', serif !important;
+}
+
+.nodi-black {
+    color: #242424;
+}
+
+.nodi-black-background {
+    background-color: #242424;
+}
+
+.nodi-gold {
+    color: #FFCBA4;
+}
+
+.nodi-gold-background {
+    color: #FFCBA4;
+}
+
+.nodi-silver {
+    color: #cdd0d7;
+}
+
+.nodi-silver-background {
+    background-color: #cdd0d7;
+}
+
+.nodi-white {
+    color: #D3D3D3;
+}
+
+.nodi-light-grey-background {
+    background-color: #A1A8B7;
+}
+
+.nodi-header {
+    padding: 64px 16px;
+}
