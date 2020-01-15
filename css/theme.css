@@ -31,6 +31,10 @@
     background-color:  rgba(146, 157, 158, 1);
 }
 
+.nodi-dark-grey-background {
+    background-color: rgba(127, 134, 136, 1);
+}
+
 .nodi-white {
     color: #FFFFFF;
 }
