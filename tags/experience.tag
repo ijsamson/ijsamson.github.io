@@ -1,8 +1,8 @@
 <experience>
-    <div id="experience" class="w3-row-padding w3-padding-64 w3-containter nodi-silver-background">
+    <div id="experience" class="w3-row-padding w3-padding-64 w3-containter">
         <div class="w3-content">
             <div class="w3-twothird w3-right">
-                <h1>Experience</h1>
+                <h1 class="nodi-bold nodi-gold">Experience</h1>
                 <h5 class="w3-padding-32">
                     <ul>
                         <li>Python 2 & 3, C#, PHP, Javascript, C++</li>
