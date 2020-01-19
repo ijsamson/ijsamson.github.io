@@ -1,0 +1,24 @@
+{
+    "title": "Nodigroup GIS - Writers",
+    "meta": {
+        "description": "Nodigroup GIS - Writers"
+    },
+    "content": {
+        "sections": [
+            {
+                "type": "header",
+                "data": "Writers"
+            },
+            {
+                "type": "list",
+                "data": [
+                    {
+                        "type": "link",
+                        "url": "page.html?page=pages/writers/ijsamson",
+                        "text": "Ian Samson"
+                    }
+                ]
+            }
+        ]
+    }
+}

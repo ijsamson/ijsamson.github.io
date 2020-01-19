@@ -1,0 +1,53 @@
+{
+    "title": "Ian Samson - Developer of Web, Desktop & GIS Applications",
+    "type": "Writer",
+    "meta": {
+        "description": "Ian Samson - Developer of Web, Desktop & GIS Applications"
+    },
+    "content": {
+        "sections": [
+            {
+                "type": "page-header",
+                "data": {
+                    "title": "IAN SAMSON",
+                    "subtitle": "Full Stack Developer, Fluent in GIS, System Architecture, and Network Security"
+                }
+            },
+            {
+                "type": "header",
+                "data": "About Me"
+            },
+            {
+                "type": "text",
+                "data": "I am a developer with nearly 10 years of experience building desktop and web based applications. I went to school for GIS and took several computer science courses along the way. Throughout my career I have strived to solve every task no matter how hard it may be, learning whatever is needed to accomplish the task. My experience has also given me insight into what problems may be too cost prohibitive to solve and be able to offer alternative solutions to help relieve pressure."
+            },
+            {
+                "type": "header",
+                "data": "Experience"
+            },
+            {
+                "type": "list",
+                "data": [
+                    {"type": "text", "data": "Python 2 & 3, C#, PHP, Javascript, C++"},
+                    {"type": "text", "data": "IIS, Apache, NGINX"},
+                    {"type": "text", "data": "Django, Flask, Riot, Angular, Bootstrap, CodeIgniter"},
+                    {"type": "text", "data": "Network Security, Cost Effective Server Selection, AWS, Azure, CPanel"},
+                    {"type": "text", "data": "Openlayers, Leaflet, MapServer, GeoServer, ArcGIS Enterprise Online Pro & Desktop, QGIS"},
+                    {"type": "text", "data": "Oil & Gas, GIS, Surveying, Environmental"}
+                ]
+            },
+            {
+                "type": "header",
+                "data": "Awards & Publications"
+            },
+            {
+                "type": "list",
+                "data": [
+                    {"type": "text", "data": "SAIT B.App.Tech - With Honours"},
+                    {"type": "text", "data": "SAIT ESRI Scholarship"},
+                    {"type": "text", "data": "Informing Decision Making: A Quantitative Model to Prioritize Habitat Enhancement"}
+                ]
+            }
+        ]
+    }
+}

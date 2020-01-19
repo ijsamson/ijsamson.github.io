@@ -3,29 +3,23 @@
 
     <head>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <title>Nodigroup GIS - Your source for easy tutorials for GIS and developers using python, QGIS, javascript, C# and more.</title>
-        <meta name="description" content="Nodigroup GIS - Your source for easy tutorials for GIS and developers using python, QGIS, javascript, C# and more.">
         <script>
             var self = this;
-            let articlesUrl = './json/pages/articles.json';
+            let url = new URL(window.location);
+            let params = url.searchParams;
+            let page = params.get('page');
+            let jsonUrl = './json/' + page + '.json';
 
-            $.get(articlesUrl, function(data) {
-                self.articles = data.content;
+            $.get(jsonUrl, function(data) {
+                document.title = data.title;
+                $('head').append('<meta name="description" content="' + data.meta.description + '">');
+                self.content = data.content
             })
                 .fail(function() {
-                    //window.location='./page-not-found';
-                });
-
-            let writersUrl = './json/pages/writers.json';
-
-            $.get(writersUrl, function(data) {
-                self.writers = data.content;
-            })
-                .fail(function() {
-                    //window.location='./page-not-found';
+                    window.location='./page-not-found';
                 });
         </script>
-        
+        <title>Nodigroup Default Page</title>
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="css/theme.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
@@ -34,19 +28,19 @@
     </head>
 
     <body>
+        <script type="riot/tag" src="tags/navbar.tag"></script>
         <script type="riot/tag" src="tags/nodi-content.tag"></script>
+        <script type="riot/tag" src="tags/nodi-page-header.tag"></script>
         <script type="riot/tag" src="tags/nodi-header.tag"></script>
         <script type="riot/tag" src="tags/nodi-link.tag"></script>
         <script type="riot/tag" src="tags/nodi-list.tag"></script>
         <script type="riot/tag" src="tags/nodi-section.tag"></script>
         <script type="riot/tag" src="tags/nodi-text.tag"></script>
+        <script type="riot/tag" src="tags/nodi-back.tag"></script>
         <script type="module">
             riot.mount('*');
         </script>
-        <h1>Articles</h1>
-        <nodi-content content="{self.articles}"></nodi-content>
-        <h1>Writers</h1>
-        <nodi-content content="{self.writers}"></nodi-content>
+        <nodi-content content="{self.content}"></nodi-content>
         
 
     </body>

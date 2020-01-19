@@ -1,0 +1,30 @@
+{
+    "title": "Making a QGIS script tool",
+    "type": "Article",
+    "meta": {
+        "description": "Making a QGIS script tool"
+    },
+    "content": {
+        "sections": [
+            {
+                "type": "header",
+                "data": "Introduction"
+            },
+            {
+                "type": "text",
+                "data": "This tutorial will go through the basics of making a QGIS script tool, and some neat time saving tips."
+            },
+            {
+                "type": "header",
+                "data": "Requirements"
+            },
+            {
+                "type": "list",
+                "data": [
+                    {"type": "text", "data": "Python 3"},
+                    {"type": "text", "data": "QGIS 3.4+"}
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "title": "Nodigroup GIS - Articles",
+    "meta": {
+        "description": "Nodigroup GIS - Articles"
+    },
+    "content": {
+        "sections": [
+            {
+                "type": "header",
+                "data": "Articles"
+            },
+            {
+                "type": "list",
+                "data": [
+                    {
+                        "type": "link",
+                        "url": "page.html?page=pages/articles/creating-a-common-code-base",
+                        "text": "Creating a Common Code Base"
+                    },
+                    {
+                        "type": "link",
+                        "url": "page.html?page=pages/articles/making-a-qgis-script-tool",
+                        "text": "Making a QGIS Script Tool"
+                    }
+                ]
+            }
+        ]
+    }
+}

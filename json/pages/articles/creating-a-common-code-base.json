@@ -1,0 +1,41 @@
+{
+    "title": "Nodigroup GIS - Creating a common python code base for GIS",
+    "type": "Article",
+    "meta": {
+        "description": "Nodigroup GIS - Creating a common python code base for GIS"
+    },
+    "content": {
+        "sections": [
+            {
+                "type": "header",
+                "data": "Introduction"
+            },
+            {
+                "type": "text",
+                "data": "Creating a centralized python code base enabled users to spend less time copy and pasting or rewriting the same code. This tutorial will show you how to create and manage a common code base, add it to source control, and then add it in to an application like QGIS."
+            },
+            {
+                "type": "header",
+                "data": "Software Requirements"
+            },
+            {
+                "type": "list",
+                "data": [
+                    {"type": "text", "data":"Python 3"},
+                    {"type": "text", "data":"git (Optional)"},
+                    {"type": "text", "data": "QGIS (Optional)"}
+                ]
+            },
+            {
+                "type": "header",
+                "data": "Suggested Knowledge or Previous Readings"
+            },
+            {
+                "type": "list",
+                "data": [
+                    {"type": "text", "data": "Basic Understanding of Python"}
+                ]
+            }
+        ]
+    }
+}
