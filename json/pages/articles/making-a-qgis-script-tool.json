@@ -1,6 +1,7 @@
 {
     "title": "Making a QGIS script tool",
     "type": "Article",
+    "theme": "default_article_theme",
     "meta": {
         "description": "Making a QGIS script tool"
     },

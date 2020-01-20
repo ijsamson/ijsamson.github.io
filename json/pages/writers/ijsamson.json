@@ -1,6 +1,7 @@
 {
     "title": "Ian Samson - Developer of Web, Desktop & GIS Applications",
     "type": "Writer",
+    "theme": "default_writer_theme",
     "meta": {
         "description": "Ian Samson - Developer of Web, Desktop & GIS Applications"
     },

@@ -1,0 +1,80 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nodi-navbar {
+    background-color: #242424;
+    color: #F3E367;
+}
+
+.nodi-navbar-button {
+
+}
+
+.nodi-navbar-mobile {
+
+}
+
+.nodi-navbar-mobile-expand {
+
+}
+
+.nodi-navbar-dropdown {
+
+}
+
+.nodi-page-header {
+    padding: 64px 16px;
+    color: #F3E367;
+}
+
+.nodi-title {
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.nodi-subtitle {
+    color: #F3E367;
+}
+
+.nodi-section {
+    color: #FFFFFF;
+    padding-left: 16px;
+}
+
+.nodi-header {
+    color: #F3E367;
+    font-weight: 450;
+    padding: 32px 16px;
+}
+
+.nodi-list {
+
+}
+
+.nodi-background-accent {
+    background-image: url("/images/background.jpg");
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 400px;
+    z-index: -2;
+}
+
+.nodi-background-accent-filter {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.7) 10%,  rgba(127, 134, 136, 0.7) 50%, rgba(127, 134, 136, 1));
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 400px;
+    z-index: -1;
+}
+
+.nodi-background-back {
+    background-image: linear-gradient(rgba(127, 134, 136, 1),rgba(127, 134, 136, 1) 50%, rgba(146, 157, 158, 1), rgba(127, 134, 136, 1));
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+}
