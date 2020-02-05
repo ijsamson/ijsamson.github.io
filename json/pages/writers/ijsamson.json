@@ -48,6 +48,11 @@
                     {"type": "text", "data": "SAIT ESRI Scholarship"},
                     {"type": "text", "data": "Informing Decision Making: A Quantitative Model to Prioritize Habitat Enhancement"}
                 ]
+            },
+            {
+                "type": "link",
+                "url": "https://github.com/ijsamson/ijsamson.github.io",
+                "text": "Github link for this website (hosted by github pages)"
             }
         ]
     }
