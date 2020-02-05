@@ -50,9 +50,12 @@
                 ]
             },
             {
-                "type": "link",
-                "url": "https://github.com/ijsamson/ijsamson.github.io",
-                "text": "Github link for this website (hosted by github pages)"
+                "type": "list",
+                "data": [{
+                    "type": "link",
+                    "url": "https://github.com/ijsamson/ijsamson.github.io",
+                    "text": "Github link for this website (hosted by github pages)"
+                }]
             }
         ]
     }
